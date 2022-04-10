@@ -34,4 +34,7 @@ class NewsCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    override func prepareForReuse() {
+        self.logo.image = nil
+    }
 }

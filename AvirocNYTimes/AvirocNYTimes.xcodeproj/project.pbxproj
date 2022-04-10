@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405D7533280043650012CB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D7532280043650012CB90 /* AppDelegate.swift */; };
+		405D7535280043650012CB90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D7534280043650012CB90 /* SceneDelegate.swift */; };
+		405D753A280043650012CB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405D7538280043650012CB90 /* Main.storyboard */; };
+		405D753C280043670012CB90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405D753B280043670012CB90 /* Assets.xcassets */; };
+		405D753F280043670012CB90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405D753D280043670012CB90 /* LaunchScreen.storyboard */; };
+		405D75492800444D0012CB90 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75482800444D0012CB90 /* AppConstants.swift */; };
+		405D754B2800477F0012CB90 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D754A2800477F0012CB90 /* ResponseModel.swift */; };
+		405D754D280060750012CB90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D754C280060750012CB90 /* HomeViewController.swift */; };
+		405D754F280064B10012CB90 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D754E280064B10012CB90 /* ApiManager.swift */; };
+		405D755128006E9E0012CB90 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D755028006E9E0012CB90 /* HomeViewModel.swift */; };
+		405D755A2800D6E10012CB90 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75542800D6E10012CB90 /* UIView+Extensions.swift */; };
+		405D755B2800D6E10012CB90 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75552800D6E10012CB90 /* NSObject+Extensions.swift */; };
+		405D755C2800D6E10012CB90 /* ImageView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75562800D6E10012CB90 /* ImageView+Extention.swift */; };
+		405D75612800D8400012CB90 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75602800D8400012CB90 /* BaseViewController.swift */; };
+		405D75642800D8990012CB90 /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D75632800D8990012CB90 /* NewsDetailController.swift */; };
+		405D7566280193820012CB90 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D7565280193820012CB90 /* NewsCell.swift */; };
+		405D756E2801A1E00012CB90 /* AvirocNYTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D756D2801A1E00012CB90 /* AvirocNYTimesTests.swift */; };
+		405D75752801A56D0012CB90 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 405D75742801A56D0012CB90 /* Mock.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405D756F2801A1E00012CB90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405D7527280043650012CB90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405D752E280043650012CB90;
+			remoteInfo = AvirocNYTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		405D752F280043650012CB90 /* AvirocNYTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvirocNYTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D7532280043650012CB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		405D7534280043650012CB90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		405D7539280043650012CB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		405D753B280043670012CB90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405D753E280043670012CB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		405D7540280043670012CB90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405D75482800444D0012CB90 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		405D754A2800477F0012CB90 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		405D754C280060750012CB90 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		405D754E280064B10012CB90 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		405D755028006E9E0012CB90 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		405D75542800D6E10012CB90 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		405D75552800D6E10012CB90 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		405D75562800D6E10012CB90 /* ImageView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Extention.swift"; sourceTree = "<group>"; };
+		405D75602800D8400012CB90 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		405D75632800D8990012CB90 /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
+		405D7565280193820012CB90 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		405D756B2801A1E00012CB90 /* AvirocNYTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvirocNYTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D756D2801A1E00012CB90 /* AvirocNYTimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvirocNYTimesTests.swift; sourceTree = "<group>"; };
+		405D75742801A56D0012CB90 /* Mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405D752C280043650012CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D75682801A1E00012CB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405D7526280043650012CB90 = {
+			isa = PBXGroup;
+			children = (
+				405D7531280043650012CB90 /* AvirocNYTimes */,
+				405D756C2801A1E00012CB90 /* AvirocNYTimesTests */,
+				405D7530280043650012CB90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405D7530280043650012CB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405D752F280043650012CB90 /* AvirocNYTimes.app */,
+				405D756B2801A1E00012CB90 /* AvirocNYTimesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405D7531280043650012CB90 /* AvirocNYTimes */ = {
+			isa = PBXGroup;
+			children = (
+				405D755F2800D8330012CB90 /* Base */,
+				405D7532280043650012CB90 /* AppDelegate.swift */,
+				405D7534280043650012CB90 /* SceneDelegate.swift */,
+				405D754E280064B10012CB90 /* ApiManager.swift */,
+				405D75532800D6E10012CB90 /* Extensions */,
+				405D7546280043780012CB90 /* Home */,
+				405D75472800438E0012CB90 /* Detail */,
+				405D7538280043650012CB90 /* Main.storyboard */,
+				405D753B280043670012CB90 /* Assets.xcassets */,
+				405D753D280043670012CB90 /* LaunchScreen.storyboard */,
+				405D7540280043670012CB90 /* Info.plist */,
+				405D75482800444D0012CB90 /* AppConstants.swift */,
+				405D754A2800477F0012CB90 /* ResponseModel.swift */,
+			);
+			path = AvirocNYTimes;
+			sourceTree = "<group>";
+		};
+		405D7546280043780012CB90 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				405D754C280060750012CB90 /* HomeViewController.swift */,
+				405D755028006E9E0012CB90 /* HomeViewModel.swift */,
+				405D7565280193820012CB90 /* NewsCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		405D75472800438E0012CB90 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				405D75632800D8990012CB90 /* NewsDetailController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		405D75532800D6E10012CB90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				405D75542800D6E10012CB90 /* UIView+Extensions.swift */,
+				405D75552800D6E10012CB90 /* NSObject+Extensions.swift */,
+				405D75562800D6E10012CB90 /* ImageView+Extention.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		405D755F2800D8330012CB90 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				405D75602800D8400012CB90 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		405D756C2801A1E00012CB90 /* AvirocNYTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				405D75742801A56D0012CB90 /* Mock.json */,
+				405D756D2801A1E00012CB90 /* AvirocNYTimesTests.swift */,
+			);
+			path = AvirocNYTimesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405D752E280043650012CB90 /* AvirocNYTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405D7543280043670012CB90 /* Build configuration list for PBXNativeTarget "AvirocNYTimes" */;
+			buildPhases = (
+				405D752B280043650012CB90 /* Sources */,
+				405D752C280043650012CB90 /* Frameworks */,
+				405D752D280043650012CB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvirocNYTimes;
+			productName = AvirocNYTimes;
+			productReference = 405D752F280043650012CB90 /* AvirocNYTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405D756A2801A1E00012CB90 /* AvirocNYTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405D75712801A1E00012CB90 /* Build configuration list for PBXNativeTarget "AvirocNYTimesTests" */;
+			buildPhases = (
+				405D75672801A1E00012CB90 /* Sources */,
+				405D75682801A1E00012CB90 /* Frameworks */,
+				405D75692801A1E00012CB90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405D75702801A1E00012CB90 /* PBXTargetDependency */,
+			);
+			name = AvirocNYTimesTests;
+			productName = AvirocNYTimesTests;
+			productReference = 405D756B2801A1E00012CB90 /* AvirocNYTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405D7527280043650012CB90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					405D752E280043650012CB90 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					405D756A2801A1E00012CB90 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 405D752E280043650012CB90;
+					};
+				};
+			};
+			buildConfigurationList = 405D752A280043650012CB90 /* Build configuration list for PBXProject "AvirocNYTimes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405D7526280043650012CB90;
+			productRefGroup = 405D7530280043650012CB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405D752E280043650012CB90 /* AvirocNYTimes */,
+				405D756A2801A1E00012CB90 /* AvirocNYTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405D752D280043650012CB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D753F280043670012CB90 /* LaunchScreen.storyboard in Resources */,
+				405D753C280043670012CB90 /* Assets.xcassets in Resources */,
+				405D753A280043650012CB90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D75692801A1E00012CB90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D75752801A56D0012CB90 /* Mock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405D752B280043650012CB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D7533280043650012CB90 /* AppDelegate.swift in Sources */,
+				405D7535280043650012CB90 /* SceneDelegate.swift in Sources */,
+				405D75612800D8400012CB90 /* BaseViewController.swift in Sources */,
+				405D755128006E9E0012CB90 /* HomeViewModel.swift in Sources */,
+				405D755A2800D6E10012CB90 /* UIView+Extensions.swift in Sources */,
+				405D755B2800D6E10012CB90 /* NSObject+Extensions.swift in Sources */,
+				405D754F280064B10012CB90 /* ApiManager.swift in Sources */,
+				405D754B2800477F0012CB90 /* ResponseModel.swift in Sources */,
+				405D75492800444D0012CB90 /* AppConstants.swift in Sources */,
+				405D75642800D8990012CB90 /* NewsDetailController.swift in Sources */,
+				405D755C2800D6E10012CB90 /* ImageView+Extention.swift in Sources */,
+				405D7566280193820012CB90 /* NewsCell.swift in Sources */,
+				405D754D280060750012CB90 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D75672801A1E00012CB90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D756E2801A1E00012CB90 /* AvirocNYTimesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405D75702801A1E00012CB90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405D752E280043650012CB90 /* AvirocNYTimes */;
+			targetProxy = 405D756F2801A1E00012CB90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		405D7538280043650012CB90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405D7539280043650012CB90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		405D753D280043670012CB90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405D753E280043670012CB90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405D7541280043670012CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		405D7542280043670012CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405D7544280043670012CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvirocNYTimes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AvirocNYTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		405D7545280043670012CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AvirocNYTimes/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AvirocNYTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		405D75722801A1E00012CB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AvirocNYTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvirocNYTimes.app/AvirocNYTimes";
+			};
+			name = Debug;
+		};
+		405D75732801A1E00012CB90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AvirocNYTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvirocNYTimes.app/AvirocNYTimes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405D752A280043650012CB90 /* Build configuration list for PBXProject "AvirocNYTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D7541280043670012CB90 /* Debug */,
+				405D7542280043670012CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405D7543280043670012CB90 /* Build configuration list for PBXNativeTarget "AvirocNYTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D7544280043670012CB90 /* Debug */,
+				405D7545280043670012CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405D75712801A1E00012CB90 /* Build configuration list for PBXNativeTarget "AvirocNYTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D75722801A1E00012CB90 /* Debug */,
+				405D75732801A1E00012CB90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405D7527280043650012CB90 /* Project object */;
+}

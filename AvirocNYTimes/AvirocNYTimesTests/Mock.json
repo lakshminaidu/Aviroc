@@ -1,0 +1,189 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/23e9e9e1-884f-5295-b954-fe81f2ca532c",
+      "url": "https://www.nytimes.com/2022/04/08/arts/television/marjorie-taylor-greene-jimmy-kimmel.html",
+      "id": 100000008293266,
+      "asset_id": 100000008293266,
+      "source": "New York Times",
+      "published_date": "2022-04-08",
+      "updated": "2022-04-08 04:32:47",
+      "section": "Arts",
+      "subsection": "Television",
+      "nytdsection": "arts",
+      "adx_keywords": "Television;Colbert, Stephen;Fallon, Jimmy;Kimmel, Jimmy;Meyers, Seth",
+      "column": null,
+      "byline": "By Trish Bendix",
+      "type": "Article",
+      "title": "Marjorie Taylor Greene Calls the Police on Jimmy Kimmel",
+      "abstract": "Kimmel said of Greene’s angry tweets about a joke he made earlier this week: “She’s a snowflake and a sociopath at the same time — a ‘snowciopath.’”",
+      "des_facet": [
+        "Television"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Colbert, Stephen",
+        "Fallon, Jimmy",
+        "Kimmel, Jimmy",
+        "Meyers, Seth"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "“I feel like maybe other Republicans like having her around to make the rest of them seem normal,” Jimmy Kimmel said of Marjorie Taylor Greene.",
+          "copyright": "ABC",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/arts/08latenight/08latenight-thumbStandard-v2.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/arts/08latenight/08latenight-mediumThreeByTwo210-v2.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/arts/08latenight/08latenight-mediumThreeByTwo440-v2.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/9cede60e-fd17-58be-8130-e81af449391b",
+      "url": "https://www.nytimes.com/2022/04/08/movies/will-smith-slap-academy.html",
+      "id": 100000008295188,
+      "asset_id": 100000008295188,
+      "source": "New York Times",
+      "published_date": "2022-04-08",
+      "updated": "2022-04-09 01:05:57",
+      "section": "Movies",
+      "subsection": "",
+      "nytdsection": "movies",
+      "adx_keywords": "Movies;Academy Awards (Oscars);Smith, Will;Rock, Chris;Smith, Jada Pinkett;Academy of Motion Picture Arts and Sciences",
+      "column": null,
+      "byline": "By Nicole Sperling",
+      "type": "Article",
+      "title": "Will Smith Barred From Attending Oscars for 10 Years After Slap",
+      "abstract": "Smith, who won best actor this year, can still be nominated for Oscars, industry officials said, but will be unable to attend the Academy Awards ceremony and other events.",
+      "des_facet": [
+        "Movies",
+        "Academy Awards (Oscars)"
+      ],
+      "org_facet": [
+        "Academy of Motion Picture Arts and Sciences"
+      ],
+      "per_facet": [
+        "Smith, Will",
+        "Rock, Chris",
+        "Smith, Jada Pinkett"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Will Smith struck the comedian Chris Rock at the Academy Awards after taking offense at a joke, stunning viewers and overshadowing the awards ceremony.",
+          "copyright": "Ruth Fremson/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/multimedia/08willsmith1/08willsmith1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/multimedia/08willsmith1/08willsmith1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/multimedia/08willsmith1/08willsmith1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4821bb5b-a507-5191-9f5b-c6e58c39d1b5",
+      "url": "https://www.nytimes.com/2022/04/08/world/europe/ukraine-chernobyl.html",
+      "id": 100000008294715,
+      "asset_id": 100000008294715,
+      "source": "New York Times",
+      "published_date": "2022-04-08",
+      "updated": "2022-04-09 03:05:29",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Nuclear Energy;Radiation;Russian Invasion of Ukraine (2022);Chernobyl (Ukraine);Kyiv (Ukraine);Bucha (Ukraine);Belarus;Russia",
+      "column": null,
+      "byline": "By Andrew E. Kramer and Ivor Prickett",
+      "type": "Article",
+      "title": "Russian Blunders in Chernobyl: ‘They Came and Did Whatever They Wanted’",
+      "abstract": "Tank treads ripped up the toxic soil, bulldozers carved trenches and bunkers, and soldiers spent a month camped in — and dug into — a radioactive forest.",
+      "des_facet": [
+        "Nuclear Energy",
+        "Radiation",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Chernobyl (Ukraine)",
+        "Kyiv (Ukraine)",
+        "Bucha (Ukraine)",
+        "Belarus",
+        "Russia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A crushed car and other detritus littered a main intersection in the abandoned town of Chernobyl.",
+          "copyright": "Ivor Prickett for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/world/08ukraine-chernobyl-promo/08ukraine-chernobyl02-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/world/08ukraine-chernobyl-promo/merlin_205180818_c2eedfaf-32ed-45c7-b720-02797d3eaa81-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2022/04/08/world/08ukraine-chernobyl-promo/merlin_205180818_c2eedfaf-32ed-45c7-b720-02797d3eaa81-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

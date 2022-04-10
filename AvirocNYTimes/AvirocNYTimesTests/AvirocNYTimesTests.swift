@@ -45,7 +45,6 @@ class AvirocNYTimesTests: XCTestCase {
     func testHomeViewModel() {
         let model = HomeViewModel()
         XCTAssertTrue(model.newsData == nil)
-        model.dataCopy = ResponseModel.testModel.results
         model.newsData = ResponseModel.testModel.results
         XCTAssertTrue(model.newsData?.count == 3)
         
